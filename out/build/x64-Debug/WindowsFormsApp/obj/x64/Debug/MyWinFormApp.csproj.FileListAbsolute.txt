@@ -1,0 +1,9 @@
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\Debug\MyWinFormApp.exe.config
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\Debug\MyWinFormApp.exe
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\Debug\MyWinFormApp.pdb
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\obj\x64\Debug\MyWinFormApp.csproj.AssemblyReference.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\obj\x64\Debug\Properties.Resources.resources
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\obj\x64\Debug\MyWinFormApp.csproj.GenerateResource.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\obj\x64\Debug\MyWinFormApp.csproj.CoreCompileInputs.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\obj\x64\Debug\MyWinFormApp.exe
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\obj\x64\Debug\MyWinFormApp.pdb

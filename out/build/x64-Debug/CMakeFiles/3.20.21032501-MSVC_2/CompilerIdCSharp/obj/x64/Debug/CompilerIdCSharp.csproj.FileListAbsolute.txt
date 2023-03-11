@@ -1,0 +1,6 @@
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.AssemblyReference.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.csproj.CoreCompileInputs.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.exe
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.pdb
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\CompilerIdCSharp.exe
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\CompilerIdCSharp.pdb

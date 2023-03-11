@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.1)
 
 project(MyWinFormApp LANGUAGES CSharp)
+
+set(CMAKE_CSharp_COMPILER "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe")
+
 
 # Include CMake utilities for CSharp, for WinForm and WPF application support.
 include(CSharpUtilities)
@@ -21,8 +24,9 @@ add_executable(MyWinFormApp
 
 # Set the .NET Framework version for the executable.
 set_property(TARGET MyWinFormApp PROPERTY VS_DOTNET_TARGET_FRAMEWORK_VERSION "v4.6.1")
+#set_property(TARGET MyWinFormApp PROPERTY VS_DOTNET_TARGET_FRAMEWORK_VERSION "v5.0")
 # Set the executable to be 32-bit.
-set_property(TARGET MyWinFormApp PROPERTY WIN32_EXECUTABLE TRUE)
+#set_property(TARGET MyWinFormApp PROPERTY WIN32_EXECUTABLE TRUE)
 # Set the C# language version (defaults to 3.0).
 set(CMAKE_CSharp_FLAGS "/langversion:latest")
 

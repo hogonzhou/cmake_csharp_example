@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{1CB6AF93-FCF5-3665-B544-67E4A179AA80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{376C560C-659E-38F1-A7FD-20CC091E7C1A} = {376C560C-659E-38F1-A7FD-20CC091E7C1A}
+		{3F55B1A9-C5D3-3FB9-942B-87523C521034} = {3F55B1A9-C5D3-3FB9-942B-87523C521034}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example.csproj", "{376C560C-659E-38F1-A7FD-20CC091E7C1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F55B1A9-C5D3-3FB9-942B-87523C521034} = {3F55B1A9-C5D3-3FB9-942B-87523C521034}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\\ZERO_CHECK.vcxproj", "{3F55B1A9-C5D3-3FB9-942B-87523C521034}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB6AF93-FCF5-3665-B544-67E4A179AA80}.Debug|x64.ActiveCfg = Debug|x64
+		{376C560C-659E-38F1-A7FD-20CC091E7C1A}.Debug|x64.ActiveCfg = Debug|x64
+		{376C560C-659E-38F1-A7FD-20CC091E7C1A}.Debug|x64.Build.0 = Debug|x64
+		{3F55B1A9-C5D3-3FB9-942B-87523C521034}.Debug|x64.ActiveCfg = Debug|x64
+		{3F55B1A9-C5D3-3FB9-942B-87523C521034}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B235F9F-E73B-3F35-B069-86015034D671}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

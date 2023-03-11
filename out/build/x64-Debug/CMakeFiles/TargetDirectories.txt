@@ -1,0 +1,6 @@
+D:/toGithub/cmake_csharp_example/out/build/x64-Debug/CMakeFiles/ALL_BUILD.dir
+D:/toGithub/cmake_csharp_example/out/build/x64-Debug/CMakeFiles/ZERO_CHECK.dir
+D:/toGithub/cmake_csharp_example/out/build/x64-Debug/Example/CMakeFiles/Example.dir
+D:/toGithub/cmake_csharp_example/out/build/x64-Debug/Example/CMakeFiles/ALL_BUILD.dir
+D:/toGithub/cmake_csharp_example/out/build/x64-Debug/WindowsFormsApp/CMakeFiles/MyWinFormApp.dir
+D:/toGithub/cmake_csharp_example/out/build/x64-Debug/WindowsFormsApp/CMakeFiles/ALL_BUILD.dir

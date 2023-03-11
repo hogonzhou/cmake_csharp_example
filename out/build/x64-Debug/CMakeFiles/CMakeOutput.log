@@ -1,0 +1,55 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the CSharp compiler identification source file "CMakeCSharpCompilerId.cs" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2023/3/11 22:58:11。
+节点 1 上的项目“D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\CompilerIdCSharp.csproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“obj\x64\Debug\”。
+CoreCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /define:Platformx64;PlatformToolsetv142 /highentropyva- /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /debug+ /out:obj\x64\Debug\CompilerIdCSharp.exe /target:exe /utf8output /langversion:7.3 CMakeCSharpCompilerId.cs "obj\x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+  CompilerServer: server - server processed compilation - ac4018c5-3097-418e-bfbd-b6d20da6b522
+CopyFilesToOutputDirectory:
+  正在将文件从“D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.exe”复制到“D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\CompilerIdCSharp.exe”。
+  CompilerIdCSharp -> D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\CompilerIdCSharp.exe
+  正在将文件从“D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\obj\x64\Debug\CompilerIdCSharp.pdb”复制到“D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\CompilerIdCSharp.pdb”。
+PostBuildEvent:
+  if not "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn"=="" if exist "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe" set _CSC=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn
+  if exist "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\csc.exe" set _CSC=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin
+  if "%_CSC%"=="" exit -1
+  @echo CMAKE_CSharp_COMPILER=%_CSC%\csc.exe
+  CMAKE_CSharp_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe
+已完成生成项目“D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\3.20.21032501-MSVC_2\CompilerIdCSharp\CompilerIdCSharp.csproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.46
+
+
+Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.csproj"
+
+Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.exe"
+
+Compilation of the CSharp compiler identification source "CMakeCSharpCompilerId.cs" produced "CompilerIdCSharp.pdb"
+
+The CSharp compiler identification is Microsoft unknown, found in "D:/toGithub/cmake_csharp_example/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdCSharp/CompilerIdCSharp.exe"
+
+Determining if the C# compiler works passed with the following output:
+Change Dir: D:/toGithub/cmake_csharp_example/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_99486.csproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  cmTC_99486 -> D:\toGithub\cmake_csharp_example\out\build\x64-Debug\CMakeFiles\CMakeTmp\Debug\cmTC_99486.exe
+
+
+

@@ -1,0 +1,170 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "WindowsFormsApp/Debug/MyWinFormApp.exe"
+		},
+		{
+			"path" : "WindowsFormsApp/Debug/MyWinFormApp.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable"
+		],
+		"files" : 
+		[
+			"E:/vcpkg-master/vcpkg-master/scripts/buildsystems/vcpkg.cmake",
+			"WindowsFormsApp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 538,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/langversion:latest /debug:full /optimize- /warn:3 /errorreport:prompt /define:DEBUG"
+				}
+			],
+			"language" : "CSharp",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "MyWinFormApp::@4738e3b6e2d1cfea0120",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/langversion:latest /debug:full /optimize- /warn:3 /errorreport:prompt /define:DEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "System",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CSharp"
+	},
+	"name" : "MyWinFormApp",
+	"nameOnDisk" : "MyWinFormApp.exe",
+	"paths" : 
+	{
+		"build" : "WindowsFormsApp",
+		"source" : "WindowsFormsApp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "WindowsFormsApp/App.config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "WindowsFormsApp/Form1.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "WindowsFormsApp/Form1.Designer.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "WindowsFormsApp/Program.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "WindowsFormsApp/Properties/AssemblyInfo.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "WindowsFormsApp/Properties/Resources.Designer.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "WindowsFormsApp/Properties/Resources.resx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "WindowsFormsApp/Properties/Settings.Designer.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "WindowsFormsApp/Properties/Settings.settings",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

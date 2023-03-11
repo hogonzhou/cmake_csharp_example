@@ -1,0 +1,174 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Example/Debug/Example.exe"
+		},
+		{
+			"path" : "Example/Debug/Example.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable"
+		],
+		"files" : 
+		[
+			"E:/vcpkg-master/vcpkg-master/scripts/buildsystems/vcpkg.cmake",
+			"Example/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 538,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/platform:x64 /define:TRACE /debug:full /optimize- /warn:3 /errorreport:prompt /define:DEBUG"
+				}
+			],
+			"language" : "CSharp",
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				5,
+				6,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Example::@358d8db68dd7622887b4",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/platform:x64 /define:TRACE /debug:full /optimize- /warn:3 /errorreport:prompt /define:DEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "System",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CSharp"
+	},
+	"name" : "Example",
+	"nameOnDisk" : "Example.exe",
+	"paths" : 
+	{
+		"build" : "Example",
+		"source" : "Example"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "Example/App.config",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Example/App.xaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Example/App.xaml.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Example/MainWindow.xaml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Example/MainWindow.xaml.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Example/Properties/AssemblyInfo.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Example/Properties/Resources.Designer.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Example/Properties/Resources.resx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Example/Properties/Settings.Designer.cs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Example/Properties/Settings.settings",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

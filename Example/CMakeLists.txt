@@ -1,5 +1,9 @@
 
-project(Example VERSION 0.1.0 LANGUAGES CSharp)
+#project(Example VERSION 0.1.0 LANGUAGES CSharp)
+project(Example LANGUAGES CSharp)
+
+set(CMAKE_CSharp_COMPILER "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe")
+
 
 include(CSharpUtilities)
 
@@ -32,7 +36,8 @@ csharp_set_xaml_cs_properties(
 set_property(SOURCE App.xaml PROPERTY VS_XAML_TYPE "ApplicationDefinition")
 
 set_property(TARGET Example PROPERTY VS_DOTNET_TARGET_FRAMEWORK_VERSION "v4.6.1")
-set_property(TARGET Example PROPERTY WIN32_EXECUTABLE TRUE)
+#set_property(TARGET Example PROPERTY VS_DOTNET_TARGET_FRAMEWORK_VERSION "v5.0")
+#set_property(TARGET Example PROPERTY WIN32_EXECUTABLE TRUE)
 
 set_property(TARGET Example PROPERTY VS_DOTNET_REFERENCES
 	"Microsoft.CSharp"

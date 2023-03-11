@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\toGithub\cmake_csharp_example\out\build\x64-Debug\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\toGithub\cmake_csharp_example\out\build\x64-Debug\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs>
+    <NonRecipeFileRef>
+      <FullPath>D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\Example.csproj</FullPath>
+    </NonRecipeFileRef>
+    <NonRecipeFileRef>
+      <FullPath>D:\toGithub\cmake_csharp_example\out\build\x64-Debug\WindowsFormsApp\MyWinFormApp.csproj</FullPath>
+    </NonRecipeFileRef>
+  </NonRecipeFileRefs>
+</Project>

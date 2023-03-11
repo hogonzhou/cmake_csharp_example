@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{376C560C-659E-38F1-A7FD-20CC091E7C1A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Example</ProjectName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <OutputPath>D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\Debug\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <PlatformToolset>v142</PlatformToolset>
+    <AssemblyName>Example</AssemblyName>
+    <StartAction>Program</StartAction>
+    <StartProgram>D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\Debug\Example.exe</StartProgram>
+    <DebugType>full</DebugType>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>false</Optimize>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemGroup>
+    <None Include="D:\toGithub\cmake_csharp_example\Example\CMakeLists.txt">
+      <Link>CMakeLists.txt</Link>
+    </None>
+  </ItemGroup>
+  <Target Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"
+    Name="CustomCommand_Debug_3d5c18e6ab309f79b54674f253acac07"
+    Inputs="D:/toGithub/cmake_csharp_example/Example/CMakeLists.txt;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CSharpUtilities.cmake"
+    Outputs="D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\CMakeFiles\generate.stamp">
+    <Exec Command="echo Building Custom Rule D:/toGithub/cmake_csharp_example/Example/CMakeLists.txt" />
+    <Exec Command="setlocal&#10;&quot;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe&quot; -SD:/toGithub/cmake_csharp_example -BD:/toGithub/cmake_csharp_example/out/build/x64-Debug --check-stamp-file D:/toGithub/cmake_csharp_example/out/build/x64-Debug/Example/CMakeFiles/generate.stamp&#10;if %errorlevel% neq 0 goto :cmEnd&#10;:cmEnd&#10;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#10;:cmErrorLevel&#10;exit /b %1&#10;:cmDone&#10;if %errorlevel% neq 0 goto :VCEnd" />
+  </Target>
+  <ItemGroup>
+    <None Include="D:\toGithub\cmake_csharp_example\Example\App.config">
+      <Link>App.config</Link>
+    </None>
+    <Compile Include="D:\toGithub\cmake_csharp_example\Example\App.xaml.cs">
+      <Link>App.xaml.cs</Link>
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="D:\toGithub\cmake_csharp_example\Example\MainWindow.xaml.cs">
+      <Link>MainWindow.xaml.cs</Link>
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="D:\toGithub\cmake_csharp_example\Example\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="D:\toGithub\cmake_csharp_example\Example\Properties\Resources.Designer.cs">
+      <Link>Properties\Resources.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="D:\toGithub\cmake_csharp_example\Example\Properties\Settings.Designer.cs">
+      <Link>Properties\Settings.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="D:\toGithub\cmake_csharp_example\Example\Properties\Settings.settings">
+      <Link>Properties\Settings.settings</Link>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Core">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="D:\toGithub\cmake_csharp_example\Example\Properties\Resources.resx">
+      <Link>Properties\Resources.resx</Link>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="D:\toGithub\cmake_csharp_example\Example\App.xaml">
+      <Link>App.xaml</Link>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="D:\toGithub\cmake_csharp_example\Example\MainWindow.xaml">
+      <Link>MainWindow.xaml</Link>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\toGithub\cmake_csharp_example\out\build\x64-Debug\ZERO_CHECK.vcxproj">
+      <Project>{3F55B1A9-C5D3-3FB9-942B-87523C521034}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <PostBuildEvent>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file E:/vcpkg-master/vcpkg-master/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/toGithub/cmake_csharp_example/out/build/x64-Debug/Example/Debug/Example.exe -installedDir E:/vcpkg-master/vcpkg-master/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <BuildDependsOn>
+      CustomCommand_Debug_3d5c18e6ab309f79b54674f253acac07;
+      $(BuildDependsOn)
+</BuildDependsOn>
+  </PropertyGroup>
+</Project>

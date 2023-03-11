@@ -1,0 +1,15 @@
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\Debug\Example.exe.config
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\Debug\Example.exe
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\Debug\Example.pdb
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example.csproj.AssemblyReference.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\MainWindow.g.cs
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\App.g.cs
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example_MarkupCompile.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example_MarkupCompile.lref
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\MainWindow.baml
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example.g.resources
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Properties.Resources.resources
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example.csproj.GenerateResource.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example.csproj.CoreCompileInputs.cache
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example.exe
+D:\toGithub\cmake_csharp_example\out\build\x64-Debug\Example\obj\x64\Debug\Example.pdb
