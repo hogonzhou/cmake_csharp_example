@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"WindowsFormsApp/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,22 +17,19 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Example::@358d8db68dd7622887b4"
+			"id" : "MyWinFormApp::@4738e3b6e2d1cfea0120"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "MyWinFormApp::@4738e3b6e2d1cfea0120"
 		}
 	],
-	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"id" : "ALL_BUILD::@4738e3b6e2d1cfea0120",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "WindowsFormsApp",
+		"source" : "WindowsFormsApp"
 	},
 	"sources" : [],
 	"type" : "UTILITY"
