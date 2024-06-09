@@ -17,10 +17,10 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "MyWinFormApp::@4738e3b6e2d1cfea0120"
+			"id" : "Example::@358d8db68dd7622887b4"
 		},
 		{
-			"id" : "Example::@358d8db68dd7622887b4"
+			"id" : "MyWinFormApp::@4738e3b6e2d1cfea0120"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
